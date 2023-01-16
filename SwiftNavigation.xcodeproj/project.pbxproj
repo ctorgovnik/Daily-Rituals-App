@@ -11,14 +11,52 @@
 		A64A09C5294D62AD00F2974D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09C4294D62AD00F2974D /* ContentView.swift */; };
 		A64A09C7294D62AF00F2974D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64A09C6294D62AF00F2974D /* Assets.xcassets */; };
 		A64A09CA294D62AF00F2974D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64A09C9294D62AF00F2974D /* Preview Assets.xcassets */; };
+		A64A09D129520A5E00F2974D /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09D029520A5E00F2974D /* WeatherView.swift */; };
+		A64A09D329520C2500F2974D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09D229520C2500F2974D /* WeatherService.swift */; };
+		A64A09D72952114A00F2974D /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09D62952114A00F2974D /* WeatherModel.swift */; };
+		A64A09FB2952248F00F2974D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09FA2952248F00F2974D /* WeatherViewModel.swift */; };
+		A64A09FD2953755F00F2974D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09FC2953755E00F2974D /* ListView.swift */; };
+		A64A09FF2953780A00F2974D /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A09FE2953780A00F2974D /* ListRowView.swift */; };
+		A64A0A022953B90600F2974D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A012953B90600F2974D /* AddView.swift */; };
+		A64A0A072953DA0600F2974D /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A062953DA0600F2974D /* ItemModel.swift */; };
+		A64A0A0B2954085D00F2974D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A0A2954085D00F2974D /* ListViewModel.swift */; };
+		A64A0A0F29560AEE00F2974D /* MainMenuSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A0E29560AEE00F2974D /* MainMenuSystem.swift */; };
+		A64A0A11295629F300F2974D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A10295629F300F2974D /* CalendarView.swift */; };
+		A64A0A13295629FD00F2974D /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A12295629FD00F2974D /* DateHolder.swift */; };
+		A64A0A1729562A7E00F2974D /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A1629562A7E00F2974D /* DateScrollerView.swift */; };
+		A64A0A1A29562CFA00F2974D /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A1929562CFA00F2974D /* CalendarHelper.swift */; };
+		A64A0A1C2956591D00F2974D /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A1B2956591D00F2974D /* CalendarCell.swift */; };
+		A64A0A1E29565A5E00F2974D /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A1D29565A5E00F2974D /* MonthStruct.swift */; };
+		A64A0A2629567C4100F2974D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A0A2529567C4100F2974D /* Time.swift */; };
+		A6A5AA9C295CFFAF004EE594 /* AnimatedHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5AA9B295CFFAF004EE594 /* AnimatedHeart.swift */; };
+		A6A5AA9E295FB1EC004EE594 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5AA9D295FB1EC004EE594 /* Affirmation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A64A09BF294D62AD00F2974D /* SwiftNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64A09C2294D62AD00F2974D /* SwiftNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationApp.swift; sourceTree = "<group>"; };
-		A64A09C4294D62AD00F2974D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A64A09C4294D62AD00F2974D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		A64A09C6294D62AF00F2974D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64A09C9294D62AF00F2974D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A64A09D029520A5E00F2974D /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A64A09D229520C2500F2974D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		A64A09D62952114A00F2974D /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A64A09FA2952248F00F2974D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		A64A09FC2953755E00F2974D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A64A09FE2953780A00F2974D /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		A64A0A012953B90600F2974D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		A64A0A062953DA0600F2974D /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		A64A0A0A2954085D00F2974D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A64A0A0E29560AEE00F2974D /* MainMenuSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuSystem.swift; sourceTree = "<group>"; };
+		A64A0A10295629F300F2974D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A64A0A12295629FD00F2974D /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		A64A0A1629562A7E00F2974D /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
+		A64A0A1929562CFA00F2974D /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		A64A0A1B2956591D00F2974D /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		A64A0A1D29565A5E00F2974D /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
+		A64A0A2529567C4100F2974D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		A6A5AA9B295CFFAF004EE594 /* AnimatedHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedHeart.swift; sourceTree = "<group>"; };
+		A6A5AA9D295FB1EC004EE594 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +89,19 @@
 		A64A09C1294D62AD00F2974D /* SwiftNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				A64A0A0E29560AEE00F2974D /* MainMenuSystem.swift */,
+				A64A0A2529567C4100F2974D /* Time.swift */,
+				A64A0A1829562A9700F2974D /* Calendar */,
 				A64A09C2294D62AD00F2974D /* SwiftNavigationApp.swift */,
+				A64A0A032953D86600F2974D /* ListModel */,
+				A64A0A092954082A00F2974D /* ListViewModel */,
+				A64A0A002953B79200F2974D /* ListViews */,
 				A64A09C4294D62AD00F2974D /* ContentView.swift */,
+				A64A0A0D29560A7D00F2974D /* Weather */,
 				A64A09C6294D62AF00F2974D /* Assets.xcassets */,
 				A64A09C8294D62AF00F2974D /* Preview Content */,
+				A6A5AA9B295CFFAF004EE594 /* AnimatedHeart.swift */,
+				A6A5AA9D295FB1EC004EE594 /* Affirmation.swift */,
 			);
 			path = SwiftNavigation;
 			sourceTree = "<group>";
@@ -65,6 +112,56 @@
 				A64A09C9294D62AF00F2974D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A64A0A002953B79200F2974D /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				A64A09FC2953755E00F2974D /* ListView.swift */,
+				A64A09FE2953780A00F2974D /* ListRowView.swift */,
+				A64A0A012953B90600F2974D /* AddView.swift */,
+			);
+			path = ListViews;
+			sourceTree = "<group>";
+		};
+		A64A0A032953D86600F2974D /* ListModel */ = {
+			isa = PBXGroup;
+			children = (
+				A64A0A062953DA0600F2974D /* ItemModel.swift */,
+			);
+			path = ListModel;
+			sourceTree = "<group>";
+		};
+		A64A0A092954082A00F2974D /* ListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A64A0A0A2954085D00F2974D /* ListViewModel.swift */,
+			);
+			path = ListViewModel;
+			sourceTree = "<group>";
+		};
+		A64A0A0D29560A7D00F2974D /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A64A09FA2952248F00F2974D /* WeatherViewModel.swift */,
+				A64A09D229520C2500F2974D /* WeatherService.swift */,
+				A64A09D62952114A00F2974D /* WeatherModel.swift */,
+				A64A09D029520A5E00F2974D /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A64A0A1829562A9700F2974D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A64A0A1629562A7E00F2974D /* DateScrollerView.swift */,
+				A64A0A12295629FD00F2974D /* DateHolder.swift */,
+				A64A0A10295629F300F2974D /* CalendarView.swift */,
+				A64A0A1B2956591D00F2974D /* CalendarCell.swift */,
+				A64A0A1D29565A5E00F2974D /* MonthStruct.swift */,
+				A64A0A1929562CFA00F2974D /* CalendarHelper.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +234,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64A0A072953DA0600F2974D /* ItemModel.swift in Sources */,
+				A6A5AA9C295CFFAF004EE594 /* AnimatedHeart.swift in Sources */,
+				A64A0A1C2956591D00F2974D /* CalendarCell.swift in Sources */,
+				A64A09D329520C2500F2974D /* WeatherService.swift in Sources */,
+				A64A09FB2952248F00F2974D /* WeatherViewModel.swift in Sources */,
+				A64A0A022953B90600F2974D /* AddView.swift in Sources */,
+				A64A0A1E29565A5E00F2974D /* MonthStruct.swift in Sources */,
 				A64A09C5294D62AD00F2974D /* ContentView.swift in Sources */,
+				A64A09FF2953780A00F2974D /* ListRowView.swift in Sources */,
+				A64A0A11295629F300F2974D /* CalendarView.swift in Sources */,
+				A64A0A13295629FD00F2974D /* DateHolder.swift in Sources */,
+				A64A09FD2953755F00F2974D /* ListView.swift in Sources */,
+				A64A0A1A29562CFA00F2974D /* CalendarHelper.swift in Sources */,
+				A64A09D129520A5E00F2974D /* WeatherView.swift in Sources */,
 				A64A09C3294D62AD00F2974D /* SwiftNavigationApp.swift in Sources */,
+				A64A0A1729562A7E00F2974D /* DateScrollerView.swift in Sources */,
+				A6A5AA9E295FB1EC004EE594 /* Affirmation.swift in Sources */,
+				A64A09D72952114A00F2974D /* WeatherModel.swift in Sources */,
+				A64A0A0F29560AEE00F2974D /* MainMenuSystem.swift in Sources */,
+				A64A0A2629567C4100F2974D /* Time.swift in Sources */,
+				A64A0A0B2954085D00F2974D /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,13 +378,14 @@
 		A64A09CE294D62AF00F2974D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftNavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide weather data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,13 +407,14 @@
 		A64A09CF294D62AF00F2974D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftNavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide weather data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
